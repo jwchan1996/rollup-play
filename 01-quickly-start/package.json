@@ -1,0 +1,12 @@
+{
+  "name": "01-quickly-start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn rollup ./src/index.js --format iife --file dist/bundle.js"
+  },
+  "devDependencies": {
+    "rollup": "^2.36.1"
+  }
+}
