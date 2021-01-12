@@ -1,0 +1,12 @@
+{
+  "name": "06-code-splitting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn rollup --config"
+  },
+  "devDependencies": {
+    "rollup": "^2.36.1"
+  }
+}
