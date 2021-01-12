@@ -1,0 +1,12 @@
+{
+  "name": "02-configuration-file",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn rollup --config"
+  },
+  "devDependencies": {
+    "rollup": "^2.36.1"
+  }
+}
