@@ -16,7 +16,7 @@ yarn add rollup --dev
 amd     cjs     system      esm     iife    umd
 ```
 
-这里选择最适合浏览器的 `iife`（立即执行函数）格式。
+这里选择最适合浏览器的 `iife`（立即执行函数）格式，默认是 `esm` 格式。
 
 ```bash
 yarn rollup ./src/index.js --format iife
